@@ -14,10 +14,13 @@ categories: ['networking', 'hashing']
     - [IN RUST](#in-rust)
     - [IN JAVASCRIPT](#in-javascript)
   - [CONCLUSION](#conclusion)
+  - [LICENSE](#license)
 
 # TCOI: THE CODE OF ISHAQ
 
 *ABSTRACT:* In this Document, I will go through the structure of a variant of hashing that will introduce Hashfiles, Hashservers and Ishaq Codes, which revolves around generating random codes stored in a key-value pairs file called a Hashfile linked to their original value, such will be an HTTP web service called a Hashserver that will host this program, which is called a Hasher, and users will be able to request Ishaq Codes from the Hashserver, and so will the Hashserver retrieve those codes from the Hashfile and respond with them back to the user.
+
+[[GitHub]](https://github.com/QurashiAkh/tcoi/)
 
 ## 1. HASHERS
 
@@ -58,7 +61,7 @@ http://hs.example.com
 
 ### IN PYTHON
 
-In order to use TCOI, you need to download it. You can either fork the Repository or run:
+In order to use TCOI, you need to [download it](https://pypi.org/project/tcoi/). You can either fork [the Repository](https://github.com/QurashiAkh/tcoi/) or run:
 
 ```
 pip install tcoi
@@ -80,7 +83,7 @@ print(f"{result['text']}: {result['tcoi']}")
 
 ### IN RUST
 
-You can also fork the Repository or add `tcoi` to your dependencies:
+You can also fork the Repository or add [`tcoi`](https://crates.io/crates/tcoi) to your dependencies:
 
 ```
 cargo add tcoi
@@ -117,7 +120,7 @@ fn main() {
 
 ### IN JAVASCRIPT
 
-Install the `tcoi` library from `npm` using:
+Install the [`tcoi` library](https://www.npmjs.com/package/tcoi) from `npm` using:
 
 ```
 npm i tcoi
@@ -147,3 +150,7 @@ if (result.tcoi === result2.tcoi) {
 ## CONCLUSION
 
 The Code of Ishaq is an alternative form of hashing that aims to implement decentralised hashservers that accomplish the goal needed to validate information.
+
+## LICENSE
+
+TCOI is licensed under the [GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt) License.
