@@ -1,0 +1,25 @@
+title: Husayn al-Qurashi
+author: Husayn al-Qurashi
+email: husayn@dnmx.org
+url: https://qurashiakh.github.io
+baseurl: ""
+description: Networking, Web Development and more.
+
+permalink: /:slug.html
+
+favicon: "assets"
+
+theme: no-style-please
+
+theme_config:
+  appearance: "dark"
+  back_home_text: "../"
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

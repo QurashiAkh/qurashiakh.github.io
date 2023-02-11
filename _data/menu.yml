@@ -1,0 +1,37 @@
+entries:
+  - title: info
+    entries:
+      - title: hobbyist. software developer (to some extent)
+      - title: networking & web development
+      - title: python, javascript and rust
+      - title: gpg key
+        url: gpg.txt
+      - title: email
+        url: mailto:husayn@dnmx.org
+  
+  - title: rss
+    url: feed.xml
+
+  - title: projects
+    entries:
+      - title: echticka
+        url: https://github.com/qurashiakh/echticka
+      - title: blogposter.js
+        url: https://github.com/qurashiakh/blogposter.js
+      - title: tcoi
+        url: https://github.com/qurashiakh/tcoi
+      - title: orch (coming soon, inshallah!)
+
+  - title: recent posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: see archive...
+      show_more_url: archive.html
+
+  # - title: networking
+  #   post_list:
+  #     category: networking
+  #     show_more: true
+  #     show_more_text: see more posts...
+  #     show_more_url: networking-archive.html

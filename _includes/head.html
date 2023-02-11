@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    {%- if page.title -%}
+      {{ page.title }}
+    {%- else -%}
+      {{ site.title }}
+    {%- endif -%}
+  </title>
+
+  {%-seo title=false-%}
+  {%-feed_meta-%}
+
+  <link rel="icon" href="{{site.baseurl}}/assets/images/black-transparent-circled-shahada.png" id="light-scheme-icon">
+  <link rel="icon" href="{{site.baseurl}}/assets/images/white-transparent-circled-shahada.png" id="dark-scheme-icon">
+  <script>
+    matcher = window.matchMedia('(prefers-color-scheme: dark)');
+    matcher.addListener(onUpdate);
+    onUpdate();
+
+    lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+    darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+
+    function onUpdate() {
+      if (matcher.matches) {
+        lightSchemeIcon.remove();
+        document.head.append(darkSchemeIcon);
+      } else {
+        document.head.append(lightSchemeIcon);
+        darkSchemeIcon.remove();
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+</head>
