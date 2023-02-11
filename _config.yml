@@ -9,7 +9,7 @@ permalink: /:slug.html
 
 favicon: "assets"
 
-theme: no-style-please
+theme: riggraz/no-style-please
 
 theme_config:
   appearance: "dark"
