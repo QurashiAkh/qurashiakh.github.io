@@ -1,3 +1,3 @@
-# Husayn al-Qurashi
+# qurashiakh
 
 My thoughts.

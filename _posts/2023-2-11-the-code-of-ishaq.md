@@ -4,13 +4,8 @@ title:  "The Code of Ishaq"
 categories: ['networking', 'hashing']
 ---
 
-# TCOI: THE CODE OF ISHAQ
-
-*ABSTRACT:* In this Document, I will go through the structure of a variant of hashing that will introduce Hashfiles, Hashservers and Ishaq Codes, which revolves around generating random codes stored in a key-value pairs file called a Hashfile linked to their original value, such will be an HTTP web service called a Hashserver that will host this program, which is called a Hasher, and users will be able to request Ishaq Codes from the Hashserver, and so will the Hashserver retrieve those codes from the Hashfile and respond with them back to the user.
-
 ## TABLE OF CONTENTS
 - [TCOI: THE CODE OF ISHAQ](#tcoi-the-code-of-ishaq)
-  - [TABLE OF CONTENTS](#table-of-contents)
   - [1. HASHERS](#1-hashers)
   - [2. HASHFILES](#2-hashfiles)
   - [3. HASHSERVERS](#3-hashservers)
@@ -19,6 +14,10 @@ categories: ['networking', 'hashing']
     - [IN RUST](#in-rust)
     - [IN JAVASCRIPT](#in-javascript)
   - [CONCLUSION](#conclusion)
+
+# TCOI: THE CODE OF ISHAQ
+
+*ABSTRACT:* In this Document, I will go through the structure of a variant of hashing that will introduce Hashfiles, Hashservers and Ishaq Codes, which revolves around generating random codes stored in a key-value pairs file called a Hashfile linked to their original value, such will be an HTTP web service called a Hashserver that will host this program, which is called a Hasher, and users will be able to request Ishaq Codes from the Hashserver, and so will the Hashserver retrieve those codes from the Hashfile and respond with them back to the user.
 
 ## 1. HASHERS
 
