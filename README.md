@@ -1,3 +1,3 @@
-# qurashiakh
+# qurashiakh.dev
 
 My thoughts.
