@@ -4,7 +4,7 @@ entries:
       - title: software developer (to some extent)
       - title: networking & web development
       - title: python, javascript and rust
-      - title: my fingerprint is <code>5E3B 14BF FC93 8D36 7EEE 87B0 41C2 46F2 566C 5F10</code>
+      - title: "my fingerprint is: <br /><code>5E3B 14BF FC93 8D36 7EEE 87B0 41C2 46F2 566C 5F10</code>"
       - title: my <a href="gpg.txt" target="_blank">public key</a>
       - title: email
         url: mailto:husayn@dnmx.org
